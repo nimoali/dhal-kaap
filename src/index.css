@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fontFamily {
+    font-family: Ambit, Helvetica, Arial, sans-serif;
+}
+
