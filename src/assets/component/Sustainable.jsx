@@ -1,12 +1,12 @@
 function Sustainable(){
-    return <div className="flex  gap-6 justify-between mt-10">
-        <div className="flex gap-4 justify-between">
+    return <div className="sm:flex  gap-6 justify-between mt-10">
+        <div className="sm:flex gap-4 justify-between">
             <div className="ml-[25%]">
             <div className="w-[220px] h-[220px] bg-green-400 rounded-[45px]  pt-2 px-2 text-white relative">
                 <p className="text-3xl font-bold">10K+</p>
                 <h1>clients</h1>
             </div>
-            <img className="rounded-full w-[280px] h-[280px] bottom-[150px] relative" src="https://img.freepik.com/free-photo/portrait-senior-farmer-agronomist-wheat-field-checking-crops-before-harvest-holding-tablet-computer_342744-1265.jpg?w=740"  alt="" />
+            <img className="rounded-full w-[280px] h-[280px] bottom-[150px] relative" src="https://img.freepik.com/free-photo/weather-effects-composition_23-2149853295.jpg?t=st=1712654359~exp=1712657959~hmac=d4911bd4e83efebf9113bac1d657bbe47a7840a2c29c77c136e6d82d395d9270&w=740"  alt="" />
             </div>
         </div>
 

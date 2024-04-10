@@ -1,32 +1,35 @@
-function Prove(){
-    return <div className=" bg-no-repeat bg-cover  bg-[url('https://img.freepik.com/free-photo/side-view-hands-gardening_23-2149894697.jpg?w=740')]">
-        <h1 className="text-center">We prove it</h1>
-        <h1 className="text-xl text-center">Service</h1>
-        <div className="flex gap-6 mx-4">
-        <div>
-            <div className="bg-white rounded w-[300px] h-[70px] text-center relative top-8 mx-10">
-                <h1>type</h1>
-                <p>carring</p>
-            </div>
-            <img className="w-[400px] h-[200px] " src="https://img.freepik.com/free-photo/full-shot-forest-wardens-looking-plants_23-2149557289.jpg?w=740" alt="" />
-        </div>
-        <div>
-            <div className="bg-white rounded w-[300px] h-[70px] text-center relative top-8 mx-10">
-                <h1>type</h1>
-                <p>carring</p>
-            </div>
-            <img className="w-[400px] h-[200px]" src="https://img.freepik.com/free-photo/grapes-strawberries-pineapple-kiwi-apricot-banana-whole-pineapple_23-2147968680.jpg?w=740" alt="" />
-        </div>
-        <div>
-            <div className="bg-white rounded w-[300px] h-[70px] text-center relative top-8 mx-10">
-                <h1>type</h1>
-                <p>carring</p>
-            </div>
-            <img className="w-[400px] h-[200px]" src="https://img.freepik.com/free-photo/fruit-basket-holds-abundance-healthy-variety-generated-by-ai_188544-13371.jpg?w=826" alt="" />
-        </div>
-        </div>
+import React from 'react';
 
-    </div>
+function Prove() {
+    return (
+        <div className="bg-no-repeat bg-cover bg-[url('https://img.freepik.com/free-photo/side-view-hands-gardening_23-2149894697.jpg?w=740')]">
+            <h1 className="text-center text-white">We prove it</h1>
+            <h1 className="text-xl text-center text-white">Service</h1>
+            <div className="flex flex-col sm:flex-row gap-6 mx-4">
+                <div className="w-full sm:w-auto">
+                    <div className="bg-white rounded w-full sm:w-[300px] h-[70px] text-center relative top-8 mx-auto sm:mx-10">
+                        <h1></h1>
+                        <p>Roob ma keeni karno lakiin waa kusheegi karnaaa</p>
+                    </div>
+                    <img className="w-full sm:w-[400px] h-[200px] mx-auto" src="https://img.freepik.com/free-vector/template-weather-prognosis_23-2147551469.jpg?w=740" alt="" />
+                </div>
+                <div className="w-full sm:w-auto">
+                    <div className="bg-white rounded w-full sm:w-[300px] h-[70px] text-center relative top-8 mx-auto sm:mx-10">
+                        <h1>type</h1>
+                        <p>carring</p>
+                    </div>
+                    <img className="w-full sm:w-[400px] h-[200px] mx-auto" src="https://img.freepik.com/free-photo/weather-effects-collage-concept_23-2150062064.jpg?w=740" alt="" />
+                </div>
+                <div className="w-full sm:w-auto">
+                    <div className="bg-white rounded w-full sm:w-[300px] h-[70px] text-center relative top-8 mx-auto sm:mx-10">
+                        <h1>type</h1>
+                        <p>carring</p>
+                    </div>
+                    <img className="w-full sm:w-[400px] h-[200px] mx-auto" src="https://img.freepik.com/free-photo/cloud-blue-sky_1232-3108.jpg?w=740" alt="" />
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default Prove;

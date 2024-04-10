@@ -1,3 +1,61 @@
 .shadow-md-dark {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   }
+
+  .all_pgs {
+    padding-top: 6rem;
+    text-align: center;
+    /* margin-left: 25%; */
+  }
+  .contact_part1 {
+    /* background-color: rgb(27, 54, 86); */
+    width: 45%;
+    /* color: white; */
+    background-color:#72a624;
+    color:white;
+    /* margin: 60px 5%; */
+    padding: 30px;
+    margin-top: 20px;
+    box-shadow: 6px 6px 16px rgba(98, 118, 91, 0.9);
+    border-radius: 5px;
+  }
+  
+  .contact_part2 {
+    width: 45%;
+    /* margin: 60px 5%; */
+    padding: 30px;
+  }
+  .contact_parent {
+    display: flex;
+    margin: 60px 3%;
+  }
+  .contact_part2 form input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border: 1px solid #8CA280;
+    border-radius: 5px;
+    outline: none;
+  }
+  .contact_part2 form label {
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  .contact_part2 form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    border: none;
+    border: 1px solid #8CA280;;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  .btn1 {
+    padding: 10px 30px;
+    background-color:#006400 ;
+    color: white;
+    border: none;
+    margin-right: 12px;
+    border-radius: 5px;
+  }
