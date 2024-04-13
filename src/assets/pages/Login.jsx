@@ -1,18 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Header from "../component/Header";
 
 function Login() {
   return (
     <div>
-      <div className="signup_parent">
+      <div>
+        <Header/>
+      </div>
+      <div className="signup_parent  ">
         <h2
           style={{
             paddingLeft: "22px",
-            paddingTop: "22px",
+            paddingTop: "20px",
             textAlign: "center",
             textTransform: "uppercase",
             fontWeight: "bold",
-            fontSize:"30px"
+            fontSize:"30px",
+            marginTop:"110px"
           }}
         >
           Login Page

@@ -2,13 +2,16 @@
 
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import Header from "../component/Header";
 
 function Contact() {
 
 
   return (
     <div>
-    
+    <div>
+      <Header />
+    </div>
       <div className="all_pgs">
         <h1 style={{ color: "rgb(27, 54, 86)" }} className="text-2xl font-bold mb-3 ">CONTACT US</h1>
         {/* <hr className="contact_hr" /> */}
