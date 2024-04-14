@@ -7,6 +7,7 @@ import Login from './assets/pages/Login';
 import Register from './assets/pages/Register';
 import Home from './assets/component/Home';
 import Cimlilada from './assets/pages/Cilada';
+import SearchBar from './assets/pages/Weather';
 
 const App = () => {
   return (
@@ -19,7 +20,7 @@ const App = () => {
           <Route path='/new' element={<News />} />
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
-          <Route path='/cimilada' element={<Cimlilada />} />
+          <Route path='/cimilada' element={<SearchBar/>} />
         {/* </div> */}
       </Routes>
     </div>

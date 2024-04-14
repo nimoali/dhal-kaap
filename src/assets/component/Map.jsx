@@ -28,7 +28,7 @@ function Map() {
 
   return (
     <div>
-        <h1 className="mt-10 ralative bottom-[300px]">Somalia weather</h1>
+        <h1 className="mt-10 ralative bottom-[100px]">Somalia weather</h1>
     <div id="map-container" className="mt-10" style={containerStyle}></div>
     </div>
   );

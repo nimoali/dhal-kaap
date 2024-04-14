@@ -4,46 +4,56 @@
     text-decoration: none;
   }
   
-  
-  
   .signup_parent {
-  
-   
-    width: 600px;
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 600px; /* Set maximum width */
     height: 85vh;
-    margin: 0 30%;
-    margin-top: 4%;
+    margin: 4% auto; /* Center the element horizontally */
     border-radius: 5px;
     background-color: #72A624;
     color: #000000;
-  }
-  .signup_parent input {
-    width: 90%;
+}
+
+.signup_parent input {
+    width: 100%; /* Adjusted input width for responsiveness */
+    box-sizing: border-box; /* Include padding in the width */
     padding: 12px;
-    border: none;
     border: 1px solid lightgray;
     border-radius: 5px;
     outline: none;
-  }
-  .signup_parent label {
+}
+
+.signup_parent label {
     color: #FFFFFF;
     font-size: 20px;
-  }
-  .signup_parent form {
+}
+
+.signup_parent form {
     padding: 20px;
-  }
-  .btn1 {
+}
+
+.btn1 {
     padding: 10px 20px;
     background-color: #006400;
     border: none;
     margin-right: 12px;
     color: white;
     border-radius: 5px;
-  }
-  .register{
+}
+
+.register {
     text-align: center;
-  }
-  .register a{
+}
+
+.register a {
     text-decoration: underline;
     color: blue;
-  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .signup_parent {
+        width: 90%;
+        margin: 10% auto; /* Adjusted margin for smaller screens */
+    }
+}
