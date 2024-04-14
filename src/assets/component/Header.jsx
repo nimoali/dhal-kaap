@@ -12,7 +12,7 @@ function Header() {
     <div className="bg-[#72a624] text-[#ffffff] fixed top-0 left-0 right-0 z-10">
       <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
         <div className="flex items-center">
-          <h1 className="text-xl font-bold mr-4">dhankaab</h1>
+          <h1 className="text-xl font-bold mr-4">Dhankaab</h1>
           {/* Use the image path here */}
           <img src="/path/to/your/image.jpg" alt="Logo" className="h-10" />
         </div>
@@ -52,7 +52,37 @@ function Header() {
           )}
         </button>
         <div className={`lg:flex items-center ${isOpen ? 'block' : 'hidden'}`}>
-          <ul className={`lg:flex gap-2 lg:gap-4`}>
+          {/* Separate button and ul for mobile view */}
+          <div className="lg:hidden">
+            <ul className={`flex flex-col gap-2`}>
+              <li>
+                <Link to="/" className="nav-link">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/cimilada" className="nav-link">
+                  Weather
+                </Link>
+              </li>
+              <li>
+                <Link to="/new" className="nav-link">
+                  New
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact" className="nav-link">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+            {/* Separate button for mobile view */}
+            <button className="mt-3 px-2 sm:px-6 py-1 rounded bg-transparent border-2 border-[#006400] text-white" onClick={toggleMenu}>
+              Sign Out
+            </button>
+          </div>
+          {/* Conditional rendering for larger screens */}
+          <ul className={`hidden lg:flex gap-2 lg:gap-4`}>
             <li>
               <Link to="/" className="nav-link">
                 Home
@@ -74,11 +104,11 @@ function Header() {
               </Link>
             </li>
           </ul>
-          {/* Conditional rendering to hide buttons on mobile */}
-          <div className="lg:flex items-center ml-4">
+          {/* Conditional rendering for larger screens */}
+          <div className="hidden lg:flex items-center ml-4">
             <Link
               to="/login"
-              className="px-2 sm:px-6 py-1  mt-3  rounded bg-transparent border-2 border-[#006400] text-white"
+              className="px-2 sm:px-6 py-1 rounded bg-transparent border-2 border-[#006400] text-white"
             >
               Sign Out
             </Link>
