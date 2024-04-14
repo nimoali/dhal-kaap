@@ -6,6 +6,7 @@ import Prove from "./Prove";
 import Register from "../pages/Register";
 import Header from "./Header";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       </div>
       <Sustainable />
       <Prove />
+      <Footer />
     </div>
   );
 }
