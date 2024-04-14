@@ -16,8 +16,9 @@ const SearchBar = () => {
           className="border border-gray-300 rounded py-2 px-4 md:px-10 focus:outline-none focus:border-blue-500 max-w-full md:max-w-md mx-auto"
           placeholder="Search Your Address, City or Zip Code"
         />
-        <SearchIcon className="absolute rigt-1/2 transform -translate-x-1/2 top-[100px] text-gray-400 fas fa-search md:left-[400px] md:top-[100px] lg:left-[720px] lg:top-[100px] xl:left-[960px] xl:top-[100px]" />
+        {/* <SearchIcon className="absolute left-1/2 transform -translate-x-1/2 top-[100px] text-gray-400 fas fa-search md:left-[1090px] md:top-[100px] lg:left-[720px] lg:top-[100px] xl:left-[960px] xl:top-[100px]" /> */}
       </div>
+
       <RecentLocations />
     </Container>
   );
@@ -30,18 +31,18 @@ const Container = tw.div`
   shadow
 `;
 
-const SearchIcon = tw(FaSearch)`
-  absolute
-  top-[100px]
-  text-gray-400
-  md:right-[10px] // Starting position for medium screens (move to the right)
-  md:left-auto // Reset left positioning for medium screens
-  md:top-[100px]
-  lg:left-[720px]
-  lg:top-[100px]
-  xl:left-[960px]
-  xl:top-[100px]
-`;
+// const SearchIcon = tw(FaSearch)`
+//   absolute
+//   top-[100px]
+//   text-gray-400
+//   md:right-[10px] // Starting position for medium screens (move to the right)
+//   md:left-auto // Reset left positioning for medium screens
+//   md:top-[100px]
+//   lg:left-[720px]
+//   lg:top-[100px]
+//   xl:left-[960px]
+//   xl:top-[100px]
+// `;
 
 
 
