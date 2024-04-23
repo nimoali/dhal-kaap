@@ -16,7 +16,7 @@ const News = ({ message }) => {
 };
 
 // Default message for the News component
-const defaultMessage = "Haven't played for about a month, too busy coding. So tired this evening though. Poker tournament with the husband later..";
+const defaultMessage = "wax yaabaha ka cusub isbadal cimli..";
 
 // Admin Component
 const Admin = ({ setMessage }) => {

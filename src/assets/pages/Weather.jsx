@@ -70,7 +70,7 @@ const RecentLocations = () => {
 
       
     </div>
-    <div>
+    <div className="mt-32">
         <Map/>
   </div>
   </div>
